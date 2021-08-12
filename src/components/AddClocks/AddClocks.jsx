@@ -15,7 +15,7 @@ export default class Clock extends Component {
   componentDidMount() {
     this.interval = setInterval(
       () => this.tick(),
-      1000
+      100
     );
   }
 
@@ -29,7 +29,6 @@ export default class Clock extends Component {
     const secs = moment().seconds();
     return moment().set({ hours: hrs, minutes: mins, seconds: secs }).format('HH:mm:ss');
   }
-
 
   tick() {
     this.setState({

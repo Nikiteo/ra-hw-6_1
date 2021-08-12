@@ -34,7 +34,7 @@ export default function App() {
     <div className="App">
       <Form onSubmit={handleAddTimes} />
       {times.map((time) =>
-        <Clock key={time.id} offset={time.timezone} title={time.name} id={time.id}  removeTime={() => removeTime(time.id)} />
+        <Clock times={times} key={time.id} offset={time.timezone} title={time.name} id={time.id}  removeTime={() => removeTime(time.id)} />
       )}
     </div>
   );
