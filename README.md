@@ -14,7 +14,7 @@ https://nikiteo.github.io/ra-hw-6_1
 
 И т.д.
 
-![Watches](./assets/watches.png)
+![Watches](./public/watches.png)
 
 Общая механика:
 
